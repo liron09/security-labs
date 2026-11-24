@@ -1,6 +1,6 @@
 # Security Labs & OSINT Exercises
 
-Hands-on work from my **OSINT Analyst Program** (InsAIghts Academy by Penlink, with Google and Reichman AI Tech School) and my **cybersecurity training program** (Networking, Linux, Python for Security, Web Pentesting, SOC, Incident Response).
+Hands-on work from my **OSINT Analyst Program** (InsAIghts Academy by Penlink, with Google and Reichman AI Tech School) and my **cybersecurity training program** and PortSwigger Web Security Academy (Networking, Linux, Python for Security, Web Pentesting, SOC, Incident Response).
 
 ## OSINT Exercises
 
@@ -16,6 +16,12 @@ Hands-on work from my **OSINT Analyst Program** (InsAIghts Academy by Penlink, w
 
 ➡️ Flagship project: **[Remotely Exploitable Medical Devices, OSINT investigation](https://github.com/liron09/medical-devices-osint)**
 
+## Web Security
+
+| Lab set | Topics | Tools |
+|---|---|---|
+| [PortSwigger: Access Control & Information Disclosure (7 labs)](web-security/portswigger-access-control-info-disclosure.md) | IDOR, forgeable cookies, 2FA bypass, broken API access control, backup-file and `.git` exposure | Browser DevTools, git-dumper, git |
+
 ## Infrastructure & SOC Labs
 
 - **Active Directory lab:** Windows Server domain with users and groups, SMB shares with NTFS + share permissions, and RDP enabled via GPO, tested from Windows 10 and Kali (`smbclient`, `xfreerdp`)
@@ -25,7 +31,7 @@ Hands-on work from my **OSINT Analyst Program** (InsAIghts Academy by Penlink, w
 *Detailed write-ups for these labs are being added.*
 
 ## Tools Used
-Maltego · Shodan · WHOIS / DNS tools · Google Lens / Yandex · ExifTool-style metadata tools · Wayback Machine · OpenCTI · Kali Linux · Windows Server / AD · Cisco Packet Tracer · Python
+Browser DevTools · git-dumper · Maltego · Shodan · WHOIS / DNS tools · Google Lens / Yandex · ExifTool-style metadata tools · Wayback Machine · OpenCTI · Kali Linux · Windows Server / AD · Cisco Packet Tracer · Python
 
 ---
 
