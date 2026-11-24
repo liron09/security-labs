@@ -21,6 +21,7 @@ Hands-on work from my **OSINT Analyst Program** (InsAIghts Academy by Penlink, w
 | Lab set | Topics | Tools |
 |---|---|---|
 | [PortSwigger: Access Control & Information Disclosure (7 labs)](web-security/portswigger-access-control-info-disclosure.md) | IDOR, forgeable cookies, 2FA bypass, broken API access control, backup-file and `.git` exposure | Browser DevTools, git-dumper, git |
+| [PortSwigger: JWT Authentication Bypass (2 labs)](web-security/portswigger-jwt-authentication-bypass.md) | Unverified signature, `alg: none` acceptance, Base64URL token forging, SOC detection | DevTools Console, jwt.io |
 
 ## Infrastructure & SOC Labs
 
@@ -31,7 +32,7 @@ Hands-on work from my **OSINT Analyst Program** (InsAIghts Academy by Penlink, w
 *Detailed write-ups for these labs are being added.*
 
 ## Tools Used
-Browser DevTools · git-dumper · Maltego · Shodan · WHOIS / DNS tools · Google Lens / Yandex · ExifTool-style metadata tools · Wayback Machine · OpenCTI · Kali Linux · Windows Server / AD · Cisco Packet Tracer · Python
+Browser DevTools · jwt.io · git-dumper · Maltego · Shodan · WHOIS / DNS tools · Google Lens / Yandex · ExifTool-style metadata tools · Wayback Machine · OpenCTI · Kali Linux · Windows Server / AD · Cisco Packet Tracer · Python
 
 ---
 
